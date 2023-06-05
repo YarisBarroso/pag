@@ -1,19 +1,40 @@
 header{
      border: 1px solid red;
-     height:200px;
+     height:100px;
 }
 
+div{
+  height: 80px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header img{
+   height: 50px;
+   width: 50px;
+}
+
+.clasheader{
+  display: flex;
+  justify-content: space-between;
+}
 @media (max-width:800px){
       header{
         background-color: red;
       }
 }
-@media (min-width:700px) and (max-width: 950px){
+@media (min-width:700px) and (max-width: 800px){
      header{
         background-color: blueviolet;
      }
 }
-@media (min-width:950px){
+@media (min-width:800px){
+  header{
+      background-color: greenyellow;
+  }
+}
+@media (min-width:1000px){
     header{
         background-color: greenyellow;
     }
